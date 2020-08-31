@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.0.16/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"1.0.0","target":"arcade","targetVersion":"1.0.16","repo":"nicoben/chest-race"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.0.16/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.0.16","repo":"nicoben/chest-race"}
 // total=1479877 new=5.82% cached=88.81% other=5.36%
 (function (ectx) {
 'use strict';
@@ -465,7 +465,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P38424(s) {
+function _main___P38433(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -960,13 +960,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P38424.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P38424.continuations = [  ]
+_main___P38433.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P38433.continuations = [  ]
 
-function _main___P38424_mk(s) {
+function _main___P38433_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P38424, depth: s.depth + 1,
+        parent: s, fn: _main___P38433, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -50430,5 +50430,5 @@ const effects_SceneAnchor__C23455_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___22658","hunter___22656"])
 
-return _main___P38424
+return _main___P38433
 })
